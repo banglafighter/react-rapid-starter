@@ -18,8 +18,8 @@ export default class PublicLayout extends RapidReactComponent<Props, any> {
                 <Bootstrap>
                     <nav className="navbar navbar-expand-lg px-lg-5 navbar-dark bg-dark">
                         <div className="container">
-                            <a className="navbar-brand" href="#">
-                                Bangla Fighter
+                            <a className="navbar-brand" href="/">
+                                React Rapid
                             </a>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#responsive-navigation">
@@ -29,13 +29,13 @@ export default class PublicLayout extends RapidReactComponent<Props, any> {
                             <div className="collapse navbar-collapse" id="responsive-navigation">
                                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#!">Home</a>
+                                        <a className="nav-link active" aria-current="page" href="/">Home</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#!">About</a>
+                                        <a className="nav-link" href="/about">About</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#!">Contact</a>
+                                        <a className="nav-link" href="/contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -49,7 +49,7 @@ export default class PublicLayout extends RapidReactComponent<Props, any> {
                             component={component}
                             additionalData={additionalData}/>
                     </main>
-                    <footer className="footer mt-auto py-3 bg-dark">
+                    <footer className="footer py-3 bg-dark fixed-bottom">
                         <div className="container">
                             <p className="m-0 text-center text-white">
                                 Copyright &copy; Your Website 2024
